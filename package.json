@@ -1,8 +1,11 @@
 {
   "name": "@cross2d/react-web-tab-navigator",
-  "version": "0.3.3",
+  "version": "1.0.0",
   "description": "A tab bar that switches between scenes, written in JS for cross-platform support",
   "main": "TabNavigator.js",
+  "scripts":{
+        "release":"npm publish --access public"
+  },
   "keywords": [
     "react-native",
     "tab-bar",
